@@ -1,0 +1,308 @@
+body{
+  height: 12500px;
+  width: 1910px;
+  margin: 0;
+  font-family: "Roboto-Regular";
+}
+
+
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+
+::-webkit-scrollbar-thumb{
+  background: #000000;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background: #343434;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+
+@media (prefers-reduced-motion: no-preference){
+  :root { scroll-behavior: smooth;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input{
+  outline:none;
+}
+
+
+
+
+
+
+.main_back{
+  position: absolute;
+  width: 1910px;
+  pointer-events: none;
+}
+
+.main_line{
+  position: absolute;
+  width: 1908px;
+  height: 0px;
+  left: 0px;
+  top: 58px;
+  border: 1px solid #B9B9B9;
+  opacity: 0.5;
+}
+
+.content{
+  height: 12500px;
+  width: 1110px;
+  margin-left: 405px;
+}
+
+.main{
+  position: absolute;
+  height: 600px;
+  width: 1110px;
+}
+
+.logo{
+  pointer-events: none;
+  position: absolute;
+  width: 107px;
+  height: 42px;
+  top: 8px;
+}
+
+.info1{
+  position: absolute;
+  width: 85px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 11px;
+  left: 305px;
+}
+
+.podinfo1{
+  position: absolute;
+  left: 305px;
+  top: 28px;
+  width: 78px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FD6140;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.info2{
+  position: absolute;
+  top: 11px;
+  left: 633px;
+  width: 41px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.podinfo2{
+  position: absolute;
+  top: 28px;
+  left: 444px;
+  width: 230px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FD6140;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.info3{
+  position: absolute;
+  top: 11px;
+  left: 784px;
+  width: 56px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.podinfo3{
+  position: absolute;
+  top: 28px;
+  left: 724px;
+  width: 230px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FD6140;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.info4{
+  position: absolute;
+  top: 11px;
+  left: 1048px;
+  width: 76px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.podinfo4{
+  position: absolute;
+  top: 28px;
+  left: 907px;
+  width: 230px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FD6140;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.nav{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 35px;
+  position: absolute;
+  width: 1110px;
+  height: 19px;
+  left: 0px;
+  top: 74px;
+}
+
+.nav__link{
+  text-decoration: none;
+  height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  transition: all .3s;
+
+}
+
+.nav__link:hover{
+  color: #FD6140;
+}
+
+.text{
+  position: absolute;
+  width: 608px;
+  height: 132px;
+  top: 154px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+  color: #FFFFFF;
+}
+
+.spisok1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 18px;
+  position: absolute;
+  width: 656px;
+  height: 166px;
+  margin-left: 10px;
+  top: 310px;
+}
+
+li{
+  list-style-type: square;
+  color: #FD6140;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 15px;
+}
+
+li span{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.but{
+  border-radius: 4px;
+  font-size: 14px;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 42px;
+  gap: 10px;
+  position: absolute;
+  width: 203px;
+  height: 54px;
+  top: 515px;
+  background: #FD6140;
+  color: #FFFFFF;
+  transition: all .3s;
+}
+
+.but:hover{
+  transform: scale(1.05);
+}
+
+
+
+
