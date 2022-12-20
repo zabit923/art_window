@@ -695,3 +695,170 @@ li span{
   background: #FFFFFF;
 }
 
+
+
+
+
+
+
+.union{
+  pointer-events: none;
+  left: 1088px;
+  top: 2504px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.okno{
+  left: 985px;
+  top: 2438px;
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.form2{
+  position: absolute;
+  box-sizing: border-box;
+  width: 1110px;
+  height: 353px;
+  padding-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgb(178, 178, 178);
+  left: 405px;
+  top: 2504px;
+  padding-left: 40px;
+}
+
+.form_input2,
+.form_form_button2{
+  font-size: 16px;
+}
+
+.form_title2{
+  padding-bottom: 10px;
+  width: 409px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #303030;
+}
+
+.form_group2{
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.form_label2{
+  position: absolute;
+  top: 13px;
+  left: 14px;
+  z-index: -1;
+  color: #9C9C9C;
+  transition:all .3s;
+}
+
+.form_input2{
+  font-size: 19px;
+  font-family: "Roboto-Regular";
+  outline: none;
+  width: 320px;
+  height: 44px;
+  border: none;
+  border-bottom: 1px solid #6a6a6a;
+  border-left: 1px solid #6f6f6f;
+  border-right: 1px solid #707070;
+  border-top: 1px solid #727272;
+  background-color: transparent;
+  transition: all .2s;
+}
+
+.form_input2:focus{
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+
+
+.form_button2{
+  position: absolute;
+  width: 203px;
+  height: 54px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FD6140;
+  border: 0;
+  transition: all .3s;
+  cursor: pointer;
+  font-size: 17px;
+  left: px;
+}
+
+.form_button2:focus,
+.form_button2:hover{
+  background: #f00000;
+}
+
+.form_input2:focus ~ .form_label2, .form_input2:not(:placeholder-shown) ~ .form_label2{
+  color: transparent;
+}
+
+
+
+.artokna{
+  position: absolute;
+  width: 1110px;
+  height: 600px;
+  top: 2963px;
+}
+
+.txtart{
+  position: absolute;
+  width: 401px;
+  height: 48px;
+  left: 0px;
+  top: 7px;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 48px;
+  color: #000000;
+}
+
+
+.txtar{
+  color: #1BB2DE;
+}
+
+.img15{
+  pointer-events: none;
+  top: 15px;
+  left: 655px;
+  position: absolute;
+}
+
+
+.lor2{
+  position: absolute;
+  width: 540px;
+  height: 303px;
+  left: 0px;
+  top: 79px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #727272;
+}
+
+.lor3{
+  position: absolute;
+  width: 540px;
+  height: 303px;
+  left: 0px;
+  top: 409px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #727272;
+}
