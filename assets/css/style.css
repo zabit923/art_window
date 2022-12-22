@@ -1206,3 +1206,114 @@ li span{
   flex-grow: 0;
 }
 
+
+.sales{
+  position: absolute;
+  width: 1110px;
+  height: 472px;
+  top: 5400px;
+}
+
+
+.akcii{
+  position: absolute;
+  width: 427px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 48px;
+  color: #1BB2DE;
+}
+
+.akci{
+  color: #000000;
+}
+
+.frame55{
+  position: absolute;
+  top: 97px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 350px;
+  height: 375px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame54{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 350px;
+  height: 109px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.nazak{
+  width: 350px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frlor{
+  width: 350px;
+  height: 78px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #727272;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame556{
+  position: absolute;
+  top: 97px;
+  left: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 350px;
+  height: 375px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame557{
+  position: absolute;
+  top: 97px;
+  left: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 350px;
+  height: 375px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
