@@ -1317,3 +1317,134 @@ li span{
   order: 0;
   flex-grow: 0;
 }
+
+
+.preim{
+  position: absolute;
+  top: 6000px;
+  width: 1110px;
+  height: 456px;
+  flex: none;
+  order: 9;
+  flex-grow: 0;
+}
+
+
+.impre{
+  position: absolute;
+  left: -405px;
+  pointer-events: none;
+}
+
+.pretxt{
+  position: absolute;
+  width: 404px;
+  height: 48px;
+  left: 190px;
+  top: 30px;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 48px;
+  color: #1BB2DE;  
+}
+
+
+
+.prelor{
+  position: absolute;
+  width: 445px;
+  height: 156px;
+  left: 190px;
+  top: 107px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #444444;
+}
+
+.frame78{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  position: absolute;
+  width: 350px;
+  height: 362px;
+  left: 760px;
+  top: 30px;
+}
+
+.fr76{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 350px;
+  height: 166px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.fr77{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 350px;
+  height: 166px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.component{
+  width: 60px;
+  height: 60px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.kac{
+  width: 89px;
+  height: 23px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.kaclor{
+  width: 160px;
+  height: 57px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #878787;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frr73{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 160px;
+  height: 88px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
